@@ -1,0 +1,6 @@
+python-escpos
+reportlab
+pandas
+matplotlib
+pillow
+pyinstaller
