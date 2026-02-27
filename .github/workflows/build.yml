@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019   # أقرب توافق مع Win7
+    runs-on: windows-2022   # أقرب توافق مع Win7
 
     steps:
     - name: Checkout code
