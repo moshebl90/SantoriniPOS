@@ -26,10 +26,10 @@ jobs:
     - name: Build EXE
       run: |
         pyinstaller --onefile --noconsole `
-        --icon=assets\santorini.ico `
+        --icon=assets/santorini.ico `
         --add-data "assets;assets" `
         --add-data "data;data" `
-        app.py
+        SantoriniPOS/app.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
